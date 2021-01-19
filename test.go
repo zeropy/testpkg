@@ -1,6 +1,5 @@
 package testpkg
 
-name := "内部可见"
+const name = "内部可见"
 
-
-Exported := "包外可见"
+const Exported = "包外可见"
